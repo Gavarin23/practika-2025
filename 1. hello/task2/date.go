@@ -6,13 +6,13 @@ import (
 )
 
 func main() {
-	name := "Anton"
+	name := "Garik"
 	date := time.Now()
 
 	msg := fmt.Sprintf(
 		"Hello, my name is %s. Current date is %s",
 		name,
-		date.Format("January 2, 2006"),
+		date.Format("June, 2005"),
 	)
 
 	fmt.Println(msg)
